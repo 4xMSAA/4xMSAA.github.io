@@ -1,0 +1,8 @@
+body {
+    font: sans-serif;
+}
+
+.document-body {
+    margin: auto;
+    max-width: 40em;
+}
