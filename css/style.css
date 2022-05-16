@@ -6,13 +6,9 @@ nav.bar {
     display: flex;
     align-items: stretch;
     justify-content: center;
-}
-
-nav.bar div.bg {
     background-color: black;
-    position: relative;
-    width: 100vw;
     margin-left: calc(50% - 50vw);
+    width: 100vw;
 }
 
 nav.bar a {
@@ -20,6 +16,7 @@ nav.bar a {
     text-decoration: none;
     text-align: center;
     flex: 1;
+    max-width: 8em;
 
 }
 
