@@ -2,12 +2,33 @@ body {
     font: 18px sans-serif;
 }
 
-nav .bar {
+nav.bar {
     display: flex;
+    align-items: stretch;
     justify-content: center;
 }
 
-nav .bar a::after {
+nav.bar div.bg {
+    background-color: black;
+    position: relative;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+}
+
+nav.bar a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    flex: 1;
+
+}
+
+nav.bar a:hover {
+    text-decoration: underline;
+}
+
+
+nav.bar div {
     content: "|";
 }
 
