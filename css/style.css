@@ -17,12 +17,13 @@ nav.bar a {
     text-align: center;
     max-width: 8em;
     color: white;
-}
-
-nav.bar !a.nav-last {
     border-right-style: dotted;
     border-right-width: 1px;
-    border-right-color: #404040
+    border-right-color: white;
+}
+
+nav.bar a.nav-last {
+    border-right-width: 0px;
 }
 
 nav.bar a:hover {
