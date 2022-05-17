@@ -1,2 +1,3 @@
 # 4xMSAA.github.io
-it's literally a page repository for my user what did you expect
+
+This is a repository for my portfolio page... what else?
