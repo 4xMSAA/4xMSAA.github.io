@@ -1,12 +1,23 @@
 body {
     font: 18px sans-serif;
+    margin: 0px;
 }
 
 div.title-bg {
     position: relative;
-    background: url();
-    width: 100%;
+    background-image: url(/assets/img/title-bg.png);
+    background-repeat: repeat-x;
+    background-size: cover;
+    width: 100vw;
     height: 100%;
+    margin-left: calc(50% - 50vw);
+    padding: 1em;
+}
+
+div.title-bg h1.title-text {
+    margin: 0px;
+    color: white;
+    text-align: center;
 }
 
 nav.bar {
