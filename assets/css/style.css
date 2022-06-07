@@ -54,3 +54,20 @@ nav.bar a:hover {
     margin: auto;
     max-width: 40em;
 }
+
+
+/* dark theme */
+
+@media (prefers-color-scheme: dark) {
+    html {
+        color: #d8d4cf;
+    }
+
+    body {
+        background-color: #131516;
+    }
+
+    a {
+        color: #3391ff;
+    }
+}
